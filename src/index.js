@@ -11,7 +11,10 @@ import AppContext from './Context/AppContext';
 import LoginAuth from './Context/LoginAuth';
 import { BrowserRouter } from 'react-router-dom';
 import TripAuth from './Context/TripAuth';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
+// import "../node_modules/bootstrap/scss/bootstrap";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

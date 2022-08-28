@@ -1,6 +1,7 @@
 
 import { Button } from "@chakra-ui/react";
 import React, { useContext, useRef } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { AuthContext } from "../Context/AppContext";
 import ImageCards from "./ImageCards1";
@@ -69,12 +70,13 @@ function SlideCard1() {
         {
           places?.map((item)=>(
             <div className="card" key={item.id} >
-             <ImageCards place={item.place} img={item.img} state={item.distric}/>
+             <ImageCards id={item.id} place={item.place} img={item.img} state={item.distric}/>
               </div>
           ))
         }
        
       </Slider>
+ 
     </div>
     );
 }

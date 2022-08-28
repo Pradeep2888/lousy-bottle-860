@@ -1,9 +1,11 @@
 import { Badge, Box, Image, Text } from '@chakra-ui/react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function ImageCards({place,state,img}) {
+function ImageCards({place,state,img,id}) {
 // console.log(img)
       return (
+        <Link to={`/trippage/${id}`}>
         <Box mr={4} height={"250px"} maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
           <Image height={"100%"} src={img[0]} alt={place} />
     
@@ -25,6 +27,7 @@ function ImageCards({place,state,img}) {
             </Box>
          
         </Box>
+        </Link>
       )
     }
 
