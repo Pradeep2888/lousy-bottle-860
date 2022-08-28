@@ -69,7 +69,7 @@ function SlideCard2() {
         {
           places?.map((item)=>(
             <div className="card" key={item.id} >
-             <ImageCards2 place={item.place} img={item.img} state={item.distric}/>
+             <ImageCards2 place={item.place} img={item.img} id={item.id} state={item.distric}/>
               </div>
           ))
         }

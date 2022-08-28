@@ -289,7 +289,7 @@ function SingleTripCard() {
   const param=useParams()
  const [data,setData]=useState([])
   const {placeToVisit,places,direction,highlight,information,covid,dothing}=useContext(AuthContext)
-  // console.log(data)
+  console.log(param.id)
   useEffect(()=>{
     setData(data1[param.id-1])
   },[param.id])

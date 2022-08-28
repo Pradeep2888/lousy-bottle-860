@@ -20,9 +20,9 @@ function Home() {
   <Header/>
 <Navbar/>
 <SearchBar/>
-<SimpleSlider/>
+{/* <SimpleSlider/> */}
 <Card2/>
-<TripCard/>
+{/* <TripCard/> */}
 <HolidayCard/>
 <Card2/>
     </div>

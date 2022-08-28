@@ -157,25 +157,3 @@ export default SingleCard
 
 
 
-// {
-//   "id": 3,
-//   "title": "Private Day Tour of Taj Mahal and Agra Fort By Superfast Train - All Inclusive",
-//   "rating": "4.1",
-//   "img_url1": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/70/73/3b.jpg",
-//   "img_url2": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/33/de/cf.jpg",
-//   "img_url3": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/70/73/41.jpg",
-//   "img_url4": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/33/de/c9.jpg",
-//   "img_url5": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/33/de/cc.jpg",
-//   "about": "If you're short on time but want the chance to see the Taj Mahal, consider this tour, which gets you from Delhi to Agra and back quickly aboard the Gatimaan Express. Depart Delhi bright and early, getting you to Agra in time for a morning visit to the Taj Mahal. Then visit the 16th-century Agra Fort and the white-marble Tomb of Itimad-ud-Daulah, AKA  before returning to Delhi.",
-//   "duration": "12h",
-//   "cancelation": "For a full refund, cancel at least 24 hours in advance of the start date of the experience.",
-//   "language": [
-//       "German",
-//       "Chinese",
-//       "Russian",
-//       "Japanese",
-//       "English",
-//       "French",
-//       "Spanish"
-//   ]
-// }

@@ -16,6 +16,7 @@ function AllRoutes() {
             <Route path="/" element={<Home/>}/>
             <Route path="/home/:id" element={<SingleCard/>}/>
             <Route path="/trippage/:id" element={<SingleTripCard/>}/>
+            <Route path="/holidaypage/:id" element={<SingleTripCard/>}/>
             <Route path="/alertpage" element={<AlertPage/>}/>
             <Route path="/reviewpage" element={<ReviewPage/>}/>
             
